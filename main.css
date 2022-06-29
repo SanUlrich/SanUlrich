@@ -1,0 +1,54 @@
+.intro{
+	background: url(Vizit/Pattern.png) center no-repeat;
+	background-size: cover;
+	width: 100%;
+
+}
+
+.navigation-bar{
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+li{
+	list-style-type: none;
+}
+
+header a{
+	text-decoration: none;
+	margin-top: 8px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #fff;
+	transition: color .2s linear;
+}
+
+header a:hover{
+	color: pink;
+}
+
+.hero-info{
+	display: flex;
+	justify-content: center;
+}
+
+.profile-photo{
+	height: 200px;
+	border-radius: 50%;
+}
+
+.hero-name{
+	margin-left: 130px;
+}
+
+.icon{
+	height: 35px;
+	margin-right: 20px;
+}
+
+.icon-stack{
+	position: absolute;
+	align-items: bottom;
+}
